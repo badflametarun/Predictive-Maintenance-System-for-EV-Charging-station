@@ -10,8 +10,8 @@ from datetime import datetime, timedelta
 st.set_page_config(layout="wide", page_title="EV Charging Station Maintenance Predictor")
 
 # Define model paths
-CLASSIFIER_PATH = '../models/maintenance_type_classifier.joblib'
-REGRESSOR_PATH = '../models/maintenance_day_regressor.joblib'
+CLASSIFIER_PATH = './models/maintenance_type_classifier.joblib'
+REGRESSOR_PATH = './models/maintenance_day_regressor.joblib'
 
 @st.cache_resource
 def load_model(model_path):
