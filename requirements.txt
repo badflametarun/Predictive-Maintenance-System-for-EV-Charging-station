@@ -1,0 +1,12 @@
+joblib
+matplotlib
+numpy
+pandas
+scikit-learn
+seaborn
+plotly
+streamlit
+imblearn
+imbalanced-learn
+pytest
+pytest-cov
